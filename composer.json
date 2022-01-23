@@ -1,0 +1,20 @@
+{
+    "name": "wagnerbugs/database-manager",
+    "description": "Biblioteca simples de manipulação do banco de dados com PHP",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Wagner Bugs",
+            "email": "wagnerbugs@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WagnerBugs\\DatabaseManager\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    }
+}
