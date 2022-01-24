@@ -19,10 +19,7 @@ class Pagination
 
     private function calculate()
     {
-        //Calcula o total de páginas
         $this->pages = $this->results > 0 ? ceil($this->results / $this->limit) : 1;
-
-        //Verifica se a página atual não excede o número de páginas
         $this->currentPage = $this->currentPage <= $this->pages ? $this->currentPage : $this->pages;
     }
 
