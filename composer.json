@@ -1,5 +1,5 @@
 {
-    "name": "wagnerbugs/database-manager",
+    "name": "wagnerbugs/dbtool",
     "description": "Biblioteca simples de manipulação do banco de dados com PHP",
     "type": "library",
     "license": "GPL-3.0-or-later",
